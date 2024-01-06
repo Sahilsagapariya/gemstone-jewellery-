@@ -1,10 +1,9 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import './Nav.css'
+import '../components/css/Headder.css'
 
-function App() {
+function Headder() {
   return (
     <Navbar collapseOnSelect expand="lg" className="nav">
       <Container>
@@ -59,4 +58,4 @@ function App() {
   );
 }
 
-export default App;
+export default Headder;
